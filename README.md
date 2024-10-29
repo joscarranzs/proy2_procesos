@@ -39,28 +39,11 @@ public class MainMenu {
 }
 ```
 
-## Ejemplo de codigo basura
-
-```java
-public class Main {
-  public static void main(String[] args) {
-    // LLamar al unico metodo que se encarga de mostrar el menu principal
-    MainMenu.showMainMenu();
-  }
-}
-
-class MainMenu {
-  public static void showMainMenu() {
-    // Desarrollar la logica de la interfaz grafica
-  }
-}
-```
-
-## Ejemplo de codigo basura
+## Ejemplo de codigo mal implementado
 
 ```java
 public class Example {
-  // Esto es un nombre generico, puede significar que imprima cualquier cosa.
+  // Esto es un nombre generico, puede significar que imprime cualquier cosa.
   public String imprimir() {
     return "Hola mundo";
   }
