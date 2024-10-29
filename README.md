@@ -1,18 +1,40 @@
 # Proyecto 2 - Desarrollo de Software
 
-¡Bienvenidos al repositorio del Proyecto 2 de la materia de Desarrollo de Software!
+## Objetivos
 
-## Descripción del Proyecto
+1. Crear un programa principal que gestione los demas programas.
+2. Desarrollar correctamente los procesos y calculos de los demas programas.
+3. Realizar una interfaz grafica para el programa principal y los demas programas.
 
-En este proyecto, desarrollaremos un programa principal que será el contenedor de tres programas adicionales. El objetivo es aplicar y consolidar conceptos aprendidos en clase sobre estructura y organización de proyectos de software. Cada uno de estos programas complementará la funcionalidad del sistema, y todos juntos permitirán una experiencia de usuario integrada y modular.
+## Requisitos
 
-### Estructura del Proyecto
+- Se debe utilizar el lenguaje de programacion Java.
+- Se debe utilizar la libreria Swing y demas librerias de Java.
+- Se puede utilizar un IDE con interfaz grafica o en consola con nvim.
 
-1. **Programa principal**: El programa principal es el encargado de gestionar los diferentes programas que componen el sistema.
-2. **Programa 1**: Carga de vectores positivos y negativos.
-3. **Programa 2**: Calcular las notas de un estudiante.
-4. **Programa 3**: Calcular el promedio de notas de un grupo de estudiantes.
+## Recomendaciones
 
-Esperamos que este proyecto no solo mejore nuestras habilidades técnicas sino también nuestra capacidad para trabajar en equipos y modularizar aplicaciones.
+- Nombrar las clases y metodos de manera que se entiendan.
+- Usar nombres de variables que se entiendan.
+- Reutilizar condigo cuando sea posible.
+- Optimizar el código para que sea eficiente.
+- Evitar la repetición de código.
 
-¡Manos a la obra!
+## Ejemplo
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    // LLamar al unico metodo que se encarga de mostrar el menu principal
+    MainMenu.showMainMenu();
+  }
+}
+```
+
+```java
+public class MainMenu {
+  public static void showMainMenu() {
+    // Desarrollar la logica de la interfaz grafica
+  }
+}
+```
