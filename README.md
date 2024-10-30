@@ -1,66 +1,33 @@
-# Proyecto 2 - Desarrollo de Software
+# Proyecto 2 - Software II
 
-## Objetivos
+## Indicaciones
 
-1. Crear un programa principal que gestione los demas programas.
-2. Desarrollar correctamente los procesos y calculos de los demas programas.
-3. Realizar una interfaz grafica para el programa principal y los demas programas.
+- No cambiar el nombre de clases, metodos, variables, etc.
+- No nombrar variables en español.
+- Actualizar el repositorio local con el repositorio remoto (comando `git pull`), esto asegurará que tengas los últimos cambios.
+- Cada colaborador debe encargarse de un solo problema.
+- Cada commit debe ser descriptivo, siempre en inglés. Ejemplo: `git commit -m "Add function to get the sum of two numbers"`.
+- Si tienen dudas, preguntar al administrador o encargado del proyecto.
 
-## Requisitos
-
-- Se debe utilizar el lenguaje de programacion Java.
-- Se debe utilizar la libreria Swing y demas librerias de Java.
-- Se puede utilizar un IDE con interfaz grafica o en consola con nvim.
-
-## Recomendaciones
-
-- Nombrar las clases y metodos de manera que se entiendan.
-- Usar nombres de variables que se entiendan.
-- Reutilizar condigo cuando sea posible.
-- Optimizar el código para que sea eficiente.
-- Evitar la repetición de código.
-
-## Ejemplo
-
-```java
-public class Main {
-  public static void main(String[] args) {
-    // LLamar al unico metodo que se encarga de mostrar el menu principal
-    MainMenu.showMainMenu();
-  }
-}
-```
-
-```java
-public class MainMenu {
-  public static void showMainMenu() {
-    // Desarrollar la logica de la interfaz grafica
-  }
-}
-```
-
-## Ejemplo de codigo mal implementado
+## Ejemplos de código
 
 ```java
 public class Example {
-  // Esto es un nombre generico, puede significar que imprime cualquier cosa.
-  public String imprimir() {
-    return "Hola mundo";
+  private String nombre; // No nombrar variables en español.
+  private String name; // Nombramiento correcto en inglés.
+
+  // No usar nombres genéricos en los métodos.
+  public void calcular(int a, int b) {
+    int resultado = a + b; // No nombrar variables en español.
+
+    System.out.println("El resultado es: " + resultado);
   }
 
-  // Nombramiento correcto de los metodos, siendo mas específico.
-  public String imprimirInformacionUsuario() {
-    return "Jose";
-  }
+  // Nombre de métodos específico y en inglés.
+  public void caluclateSum(int a, int b) {
+    int sum = a + b; // Nombramiento correcto en inglés.
 
-  public String imprimirInformacionVentas() {
-    return "10";
+    System.out.println("La suma es: " + sum);
   }
 }
 ```
-
-### Sugerencias
-
-- Los nombres de los metodos son mas descriptivos y se entienden mejor lo que hacen.
-- Las variables deben ser nombradas de manera que se entiendan.
-- Asi todos los demas desarrolladores pueden enteder el código.
