@@ -24,7 +24,7 @@ public class Example {
   }
 
   // Nombre de métodos específico y en inglés.
-  public void caluclateSum(int a, int b) {
+  public void calculateSum(int a, int b) {
     int sum = a + b; // Nombramiento correcto en inglés.
 
     System.out.println("La suma es: " + sum);
