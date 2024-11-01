@@ -13,7 +13,9 @@
   git commit -m "Mensaje"
   git push
   ```
-- Pueden repetir este proceso, pero siempre deben actualizar los cambios en su repositorio local.
+- Recuerden que esto lo deben hacer desde una terminal o si tienen un IDE compatible con GitHub.
+- Deben acceder a la carpeta del proyecto, abrir una terminal y ejecutar los comandos anteriores para subir el código.
+- Pueden repetir este proceso, pero siempre deben actualizar los cambios en su repositorio local antes de empezar a editar código nuevo.
   ```bash
   git pull
   ```
